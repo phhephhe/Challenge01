@@ -63,6 +63,7 @@ html {
     z-index: 1;
 }
 .form{
+    position: relative;
     width: 350px;
     height:400px;
     font-size: 20px;
@@ -70,6 +71,7 @@ html {
     border: 2px solid white;
     border-radius: 10px;
     color: white;
+    box-shadow: 10px 10px 60px #000;
 }
 .input {
     width: 100%;
@@ -86,7 +88,21 @@ html {
 }
 .login{
     color: rgb(255, 255, 255);
-    background-color: lawngreen;
+    background-color: green;
     font-size: 20px;
     cursor: pointer;
+    padding-bottom: 35px;
+    transition-duration: 0.5s;
+}
+.login:hover{
+    background-color: rgb(1, 100, 1);
+}
+
+.icon{
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 25px;
 }
