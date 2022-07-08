@@ -105,4 +105,22 @@ html {
     top: 15px;
     cursor: pointer;
     font-size: 25px;
+    transition: all 0.5s;
+}
+.icon:hover{
+    color: black;
+}
+.defaultBlock{
+    display: block;
+    animation-name: signIcon;
+    animation-duration: 2s;
+}
+@keyframes signIcon {
+    0% {opacity: 0;}
+    100% {opacity: 0.5;}
+}
+.input::placeholder{
+    color: red;
+    font-size: 15px;
+    padding: 10px;
 }
